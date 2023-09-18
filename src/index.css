@@ -31,14 +31,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.submit-button, .reset-button {
-  padding: 10px 20px;
+.print-button-container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  
+}
+
+.print-button{
+  display: flex;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 3px 6px;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color:cornflowerblue;
+  color: #fff;
+}
+.submit-button, .reset-button {
+  padding: 3px 6px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }

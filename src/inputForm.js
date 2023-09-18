@@ -38,6 +38,10 @@ function InputForm() {
     return () => 
       clearTimeout(timeOut);
     },[submitted]);
+
+    const handlePrint=()=>{
+      window.print();
+    };
    
 
   return (
@@ -98,6 +102,9 @@ function InputForm() {
 
    </div>
       )}
+      <div className='print-button-container'>
+      <button onClick={handlePrint} className='print-button'>Print Page</button>
+      </div>
   </div>
   );
 }
