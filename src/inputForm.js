@@ -82,7 +82,7 @@ function InputForm() {
           <option value="19-24">19-24</option>
           <option value="25-30">25-30</option>
           <option value="31-36">31-36</option>
-          <option value="37-42">37-42</option>
+          <option value="37-40">37-40</option>
         </select>
 
        <div className='button-container'>

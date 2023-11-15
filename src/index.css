@@ -6,6 +6,8 @@
   border-radius: 10px;
   background-color: #f7f7f7;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+  border: 2px solid#333 ;
 }
 
 /* Styles for the form title */
@@ -18,7 +20,7 @@
 
 /* Styles for the input fields */
 .input-field, .select-field {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
